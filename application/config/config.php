@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -66,7 +66,7 @@ $config['uri_protocol']	= 'REQUEST_URI';
 |
 | Note: This option is ignored for CLI requests.
 */
-$config['url_suffix'] = '';
+$config['url_suffix'] = 'http://localhost/AULA_CI3/';
 
 /*
 |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= 'portuguese';
 
 /*
 |--------------------------------------------------------------------------
