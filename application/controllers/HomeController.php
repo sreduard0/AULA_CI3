@@ -7,6 +7,10 @@ class HomeController extends CI_Controller
 	public function index()
 	{
 		$View = new ViewController();
-		$View->render('homeview', 'layout/layoutview', 'Teste RENDER');
+		$assets = '	
+		<link rel="stylesheet" href="assets/css/home.css">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		';
+		$View->render('homeview', 'layout/layoutview', 'Teste RENDER', $assets);
 	}
 }

@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+@keyframes loadBar {
+	from {
+		width: 300px;
+		border-radius: 50px;
+
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+html,
+body {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	background: #dadada;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+.wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding-top: 130px;
+}
+
+.fostrap-logo {
+	width: 300px;
+	padding: 10px 30px;
+	background-color: rgb(1, 178, 194);
+	border-radius: 50px;
+}
+
+.fostrap-logo:hover {
+	animation: tada 1s;
+}
+
+.navbar-color {
+	background-color: rgb(1, 178, 194);
+	animation: loadBar 2s;
+}
+
+
+footer ul li {
+	font-size: 25px;
+	margin: 10px;
+}
