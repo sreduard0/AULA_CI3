@@ -26,7 +26,7 @@
  								</p>
  							</div>
  							<div class="card-read-more">
- 								<a href="https://cmder.app/" class="btn btn-success rounded-pill">
+ 								<a href="https://cmder.app/" class="btn btn-default rounded-pill">
  									ver
  								</a>
  							</div>
@@ -48,7 +48,7 @@
  								</p>
  							</div>
  							<div class="card-read-more">
- 								<a href="https://www.wampserver.com/en/" class="btn btn-success rounded-pill">
+ 								<a href="https://www.wampserver.com/en/" class="btn btn-default rounded-pill">
  									ver
  								</a>
  							</div>
@@ -70,7 +70,7 @@
  								</p>
  							</div>
  							<div class="card-read-more">
- 								<a href="https://tortoisegit.org/download/" class="btn btn-success rounded-pill">
+ 								<a href="https://tortoisegit.org/download/" class="btn btn-default rounded-pill">
  									ver
  								</a>
  							</div>
