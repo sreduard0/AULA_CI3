@@ -48,10 +48,6 @@ nav {
 	border-radius: 50px;
 }
 
-.fostrap-logo:hover {
-	animation: tada 1s;
-}
-
 .navbar-color {
 	background-color: rgb(1, 178, 194);
 	animation: loadBar 2s;

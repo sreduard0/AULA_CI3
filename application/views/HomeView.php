@@ -9,10 +9,10 @@
  		</div>
  		<div class="content">
  			<div class="container-fluid">
- 				<div class="row animate__animated animate__backInLeft">
+ 				<div class="row grid animate__animated animate__backInLeft">
 
  					<!-- Cmder -->
- 					<div class=" col-xs-12 col-md-4">
+ 					<div class="grid-item col-xs-12 col-md-4 tools">
  						<div class="card">
  							<div class="img-card">
  								<img src="https://cmder.app/img/main.png" />
@@ -34,7 +34,7 @@
  					</div>
 
  					<!-- WAMP -->
- 					<div class="col-xs-12 col-md-4">
+ 					<div class="grid-item col-xs-12 col-md-4 tools">
  						<div class="card">
  							<div class="img-card">
  								<img src="https://rommeter.weebly.com/uploads/1/2/7/2/127239549/550031365_orig.jpg" />
@@ -56,7 +56,7 @@
  					</div>
 
  					<!-- TortoiseGIT -->
- 					<div class="col-xs-12 col-md-4">
+ 					<div class="grid-item col-xs-12 col-md-4 framework">
  						<div class="card">
  							<div class="img-card">
  								<img src="https://i.ytimg.com/vi/1d06Z3YC8d4/maxresdefault.jpg" />
@@ -76,9 +76,11 @@
  							</div>
  						</div>
  					</div>
-
-
  				</div>
  			</div>
  		</div>
  	</div>
+ 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+ 	<script>
+ 		$('.grid').isotope();
+ 	</script>
