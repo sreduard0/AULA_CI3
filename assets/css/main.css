@@ -77,6 +77,13 @@ li .active:hover {
 	border-color: rgb(0, 123, 134);
 }
 
+.lazy {
+	background-image: url('https://blog.leadforce.com.br/wp-content/uploads/2022/01/maiorlogo.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-color: #fff;
+}
+
 
 footer ul li {
 	font-size: 25px;

@@ -30,7 +30,7 @@
  					<div class="grid-item col-xs-12 col-md-4 tools">
  						<div class="card">
  							<div class="img-card">
- 								<img src="https://cmder.app/img/main.png" />
+ 								<img data-src="https://cmder.app/img/main.png" class="lazy" />
  							</div>
  							<div class="card-content">
  								<h4 class="card-title">
@@ -98,6 +98,9 @@
  	</div>
  	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
  	<script>
+ 		$(function() {
+ 			$('.lazy').Lazy();
+ 		});
  		$('.grid').isotope();
 
  		function filter_cards(prop) {
