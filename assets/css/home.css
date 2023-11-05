@@ -91,6 +91,8 @@ h1.heading {
 	margin-top: 0px;
 	font-weight: 700;
 	font-size: 1.65em;
+	display: flex;
+	align-items: center;
 }
 
 .card-text {
@@ -103,6 +105,18 @@ h1.heading {
 .card-title a {
 	color: #000;
 	text-decoration: none !important;
+
+}
+
+.important {
+	color: rgb(1, 178, 194);
+}
+
+.card-title i {
+	color: rgb(1, 178, 194);
+	font-size: 10pt;
+	margin-left: 5px;
+
 }
 
 .card-read-more a {
